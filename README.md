@@ -1,6 +1,6 @@
 # DiscordBotActionRu
 
-![Иллюстрация к проекту](https://github.com/NeverAngelGit/DiscordBotActionRu/blob/main/banner.png)
+![Иллюстрация к проекту](https://github.com/NeverAngelGit/DiscordBotActionRu/blob/main/banner_action.png)
 
 Это Discord-бот, созданный с использованием библиотеки `discord.py`. Он включает в себя различные функции модерации, такие как мьют, бан и логирование действий. Бот предназначен для эффективного управления и модерации сервера Discord.
 

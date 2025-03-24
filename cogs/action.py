@@ -288,7 +288,7 @@ class Moderation(commands.Cog):
         if user.avatar:
             embed.set_thumbnail(url=user.avatar.url)
             
-        embed.set_footer(text=f"Запрошено {interaction.user.name}", icon_url=interaction.user.avatar.url if interaction.user.avatar else None)
+        embed.set_footer(text=f"Запросил {interaction.user.name}", icon_url=interaction.user.avatar.url if interaction.user.avatar else None)
         
         # Создание вида с кнопками мьюта
         view = MuteView(user.id, member)
